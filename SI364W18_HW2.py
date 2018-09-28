@@ -10,6 +10,7 @@
 ## As part of the homework, you may also need to add templates (new .html files) to the templates directory.
 
 ## Ava Weiner helped me debug /specific/song/<artist_name> route.
+## Kevin Rothstein helped me with album_data.html, explained <p> to me. 
 ## Used https://stackoverflow.com/questions/14591202/how-to-make-a-radiofield-in-flask & https://stackoverflow.com/questions/47627042/how-do-i-add-a-class-to-wtform-radio-field to help with AlbumEntryForm class.
 
 #############################
