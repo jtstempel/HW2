@@ -1,0 +1,11 @@
+{% block content %}
+	<form method = 'POST' action = 'http://localhost:5000/album_result'>
+		{{ form.hidden_tag() }}
+		{% for message in get_flashed_messages() %}
+      	{{ message }}
+      	{% endfor %}
+      	<p>{{ form.name_album.label }}{{ form.name_album() }}</p>
+      	<p>{{ form.radio_buttons.label }}{{ form.radio_buttons() }}</p>
+      	{{ form.submit() }}
+  	</form>
+{% endblock %}
